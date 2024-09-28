@@ -1,6 +1,8 @@
 use std::{env, fs};
 use std::path::PathBuf;
 
+mod cli;
+
 fn main() {
     let path = env::args()
         .nth(1)
