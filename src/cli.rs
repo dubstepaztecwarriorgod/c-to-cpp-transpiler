@@ -10,6 +10,6 @@ struct Arg {
 
 impl Arg {
     pub fn is_c(&self) {
-        let extension = self.path.extension()
+        let extension = self.path.extension();
     }
 }
